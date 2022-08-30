@@ -1,3 +1,46 @@
 <% layout('layouts/boilerplate') %>
 
-<h1>Register page</h1>
+<h1 class="text-center mb-5">REGISTER</h1>
+
+<div class="row">
+  <div class="col-6 offset-3">
+    <form action="#" method="POST">
+      <div>
+        <label class="form-label fs-4" for="name">Full Name</label>
+        <input
+          class="form-control"
+          type="text"
+          id="name"
+          name="name"
+          placeholder="e.g. Ran Sel"
+        />
+      </div>
+      <br />
+      <div class="mb-3">
+        <label class="form-label fs-4" for="occupation">Occupation</label>
+        <input
+          class="form-control"
+          type="text"
+          id="occupation"
+          name="occupation"
+          placeholder="e.g. teacher, student, etc..."
+        />
+      </div>
+      <div class="mb-3">
+        <label class="form-label fs-4" for="date">Date Of Birth</label>
+        <input class="form-control" type="date" id="date" name="date" />
+      </div>
+      <div class="mb-3">
+        <label class="form-label fs-4" for="date">Phone:</label>
+        <input
+          class="form-control"
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="+23354000000"
+        />
+      </div>
+      <button class="btn btn-success fs-4">Submit</button>
+    </form>
+  </div>
+</div>
