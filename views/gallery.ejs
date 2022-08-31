@@ -1,3 +1,102 @@
 <% layout('layouts/boilerplate') %>
+<link rel="stylesheet" href="/css/gallery.css" />
+<script src="/js/gallery.js" defer></script>
 
-<h1>Gallery Page</h1>
+<h1 class="fs-1 text-center pd-2">Gallery Page</h1>
+
+<div class="card" mb-5>
+  <div class="row">
+      <div class="col-md-4">
+        <img
+          src="/images/img2.jpeg"
+          alt="Testing"
+          class="img-fluid"
+          id="myImg"
+        /></div>
+        <div class="col-md-4">
+          <img
+            src="/images/img1.jpeg"
+            alt="Testing"
+            class="img-fluid"
+            id="myImg"
+          />
+        </div>
+        <div class="col-md-4">
+          <img
+            src="/images/img4.jpeg"
+            alt=""
+            class="img-fluid"
+            id="myImg"
+            style="width:100%"
+          />
+        </div>
+        <div class="col-md-4">
+            <img
+              src="/images/img9.jpeg"
+              alt=""
+              class="img-fluid"
+              id="myImg"
+              style="width:100%"
+            />
+          </div>
+          <div class="col-md-4">
+            <img
+              src="/images/img5.jpeg"
+              alt=""
+              class="img-fluid"
+              id="myImg"
+              style="width:100%"
+            />
+          </div>
+          <div class="col-md-4">
+            <img
+              src="/images/img6.jpeg"
+              alt=""
+              class="img-fluid"
+              id="myImg"
+              style="width:100%"
+            />
+          </div>
+          <div class="col-md-4">
+            <img
+              src="/images/img11.jpeg"
+              alt=""
+              class="img-fluid"
+              id="myImg"
+              style="width:100%"
+            />
+          </div>
+          <div class="col-md-4">
+            <img
+              src="/images/img7.jpeg"
+              alt=""
+              class="img-fluid"
+              id="myImg"
+              style="width:100%"
+            />
+          </div>
+          <div class="col-md-4">
+            <img
+              src="/images/img8.jpeg"
+              alt=""
+              class="img-fluid"
+              id="myImg"
+              style="width:100%"
+            />
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+    <!-- The Close Button -->
+    <span class="close">&times;</span>
+
+    <!-- Modal Content (The Image) -->
+    <img class="modal-content" id="img01" />
+
+    <!-- Modal Caption (Image Text) -->
+    <div id="caption"></div>
+  </div>
+</div>
